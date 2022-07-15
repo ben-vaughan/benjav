@@ -1,17 +1,20 @@
-import './css/App.css'
-import Header from './components/Header.js'
-import Experience from './components/Experience.js';
-import About from './components/About.js';
+import './css/App.css';
+import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
+
+import LayoutDefault from './components/layouts/LayoutDefault.js';
+import Home from './pages/Home';
+import NotFound from './pages/NotFound';
 
 function App() {
   return (
-    <div className="App background">
-        <Header/>
-        <body>
-          <About/>
-          <Experience/>
-        </body>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<LayoutDefault />}>
+          <Route index element={<Home />} />
+          <Route path="*" element={<NotFound />} />
+        </Route>
+      </Routes>
+    </Router>
   );
 }
 

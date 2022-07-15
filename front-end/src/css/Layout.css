@@ -1,0 +1,31 @@
+.layout {
+  margin: auto;
+  font-family: 'Raleway', sans-serif;
+  min-height: 100vh;
+  max-width: 1200px;
+  padding: 20px 10px;
+  display: flex;
+}
+
+.background {
+  background-color: #343434;
+  background-image: url('../assets/backgroundGraphic.svg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top right;
+  background-size: 40% auto;
+}
+
+.navbar-layout {
+  padding: 5px;
+  display: block;
+  margin: 0;
+  width: 100px;
+  height: 100%;
+}
+
+.content-layout {
+  padding: 5px;
+  display: block;
+  width: 100%;
+}

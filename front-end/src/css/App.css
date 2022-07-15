@@ -1,21 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-.App {
-  font-family: 'Raleway', sans-serif;
-  text-align: center;
-  background-color: #343434;
-  min-height: 100vh;
-  padding: 20px 30px;
-}
-
-.background {
-  background-image: url('../assets/backgroundGraphic.svg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: top right;
-  background-size: 40% auto;
-}
-
 .header {
   color: white;
   font-size: calc(10px + 5vmin);
@@ -32,10 +16,8 @@
 }
 
 .text-section {
-  max-width: 900px;
   text-align: left;
   color: white;
-  padding-top: 30px;
 }
 
 .heading-0 {
@@ -47,6 +29,7 @@
 }
 
 .heading-1 {
+  color: white;
   text-align: left;
   font-weight: 300;
   font-size: calc(10px + 0.6vmin);
@@ -63,6 +46,6 @@
 }
 
 .paragraph {
-  font-weight: 100;
+  font-weight: 200;
   font-size: calc(10px + 0.4vmin);
 }

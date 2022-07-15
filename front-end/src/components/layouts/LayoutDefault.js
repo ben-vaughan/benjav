@@ -1,11 +1,19 @@
-import Header from "../Header";
+import Navbar from "../Navbar";
+import '../../css/Layout.css'
+import { Outlet } from "react-router-dom";
 
-function LayoutDefault({ children }) {
+function LayoutDefault() {
   return(
-    <>
-      <Header />
-      <main>{children}</main>
-    </>
+    <div className='background'>
+      <div className='layout'>
+        <div className='navbar-layout'>
+          <Navbar />
+        </div>
+        <div className = 'content-layout'>
+          <Outlet />
+        </div>
+      </div>
+    </div>
   )
 }
 

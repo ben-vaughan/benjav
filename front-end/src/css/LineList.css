@@ -1,4 +1,8 @@
-.experience-outer {
+.list_container {
+  
+}
+
+.list-outer {
   padding-top: 10px;
   color: white;
   display: flex;
@@ -6,9 +10,10 @@
   width: 50vw;
 }
 
-.experience-details {
+.list-details {
   border-left: solid 1px #B5B5B5;
   text-align: left;
   padding: 5px;
+  min-width: 600px;
   width: 85%;
 }
