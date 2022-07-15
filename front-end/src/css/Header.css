@@ -10,9 +10,9 @@
 }
 
 .subheading {
-  font-size: calc(10px + 1.4vmin);
+  font-size: calc(10px + 1.2vmin);
   text-align: left;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .line {
