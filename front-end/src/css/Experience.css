@@ -1,11 +1,3 @@
-.experience-heading {
-  color: white;
-  font-weight: 300;
-  padding-top: 30px;
-  font-size: calc(10px + 1vmin);
-  text-align: left;
-}
-
 .experience-outer {
   padding-top: 10px;
   color: white;
@@ -14,13 +6,8 @@
   width: 50vw;
 }
 
-.experience-timeline {
-  width: 0%;
-  border-right: solid 1px #B5B5B5;
-  margin-right: 5px;
-}
-
 .experience-details {
+  border-left: solid 1px #B5B5B5;
   text-align: left;
   padding: 5px;
   width: 85%;

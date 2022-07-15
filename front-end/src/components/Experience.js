@@ -1,5 +1,5 @@
 import '../css/Experience.css'
-import ExperienceDetails from './ExperienceDetails';
+import ListElement from './elements/ListElement';
 
 let noco = {
   firm: 'NoCo',
@@ -7,7 +7,6 @@ let noco = {
   date: 'August 2022 - Present',
   description: "Developing and maintaining an online platform's front-end and back-end. Created database architecture & security using AWS. Implemented various AWS Lambda functions to populate the database, and retrieve those values to display on the front-end. Developed an in-house API to access the relational database. "
 }
-
 let kpmg = {
   firm: 'KPMG Ireland',
   title: 'Applied Intelligence Team (Intern)',
@@ -24,14 +23,12 @@ let fonz = {
 function Experience() {
   return (
     <div>
-      <div className='experience-heading'> experience </div>
+      <div className='heading-0'> experience </div>
       <div className='experience-outer'>
-        <div className='experience-timeline'>
-        </div>
         <div className='experience-details'>
-          <ExperienceDetails firm={noco.firm} date={noco.date} title={noco.title} description={noco.description}/>
-          <ExperienceDetails firm={kpmg.firm} date={kpmg.date} title={kpmg.title} description={kpmg.description}/>
-          <ExperienceDetails firm={fonz.firm} date={fonz.date} title={fonz.title} description={fonz.description}/>
+          <ListElement firm={noco.firm} date={noco.date} title={noco.title} description={noco.description}/>
+          <ListElement firm={kpmg.firm} date={kpmg.date} title={kpmg.title} description={kpmg.description}/>
+          <ListElement firm={fonz.firm} date={fonz.date} title={fonz.title} description={fonz.description}/>
         </div>
       </div>
     </div>

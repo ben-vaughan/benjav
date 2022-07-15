@@ -2,11 +2,11 @@ import "../css/Header.css"
 
 function Header() {
   return(
-    <header className='app-header'>
-      <div className='heading'>
+    <header className='heading'>
+      <div className='header'>
         <span>ben vaughan</span>
       </div>
-      <div className='subheading'>
+      <div className='subheader'>
         <span>design, data, development.</span>
       </div>
       <div className='line'> 

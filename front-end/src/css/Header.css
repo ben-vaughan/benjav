@@ -2,19 +2,6 @@
   color: white;
 }
 
-.heading {
-  font-size: calc(10px + 5vmin);
-  text-align: left;
-  width: 100%;
-  font-weight: 700;
-}
-
-.subheading {
-  font-size: calc(10px + 1.2vmin);
-  text-align: left;
-  font-weight: 400;
-}
-
 .line {
   width: 80px;
   padding: 4px;

@@ -16,11 +16,53 @@
   background-size: 40% auto;
 }
 
-.hero {
-  height: 50vh;
+.header {
+  color: white;
+  font-size: calc(10px + 5vmin);
+  text-align: left;
   width: 100%;
-  right: 0;
-  top: 0;
-  position: absolute;
+  font-weight: 700;
 }
 
+.subheader {
+  color: white;
+  font-size: calc(10px + 1.2vmin);
+  text-align: left;
+  font-weight: 400;
+}
+
+.text-section {
+  max-width: 900px;
+  text-align: left;
+  color: white;
+  padding-top: 30px;
+}
+
+.heading-0 {
+  color: white;
+  font-weight: 300;
+  padding-top: 30px;
+  font-size: calc(10px + 0.7vmin);
+  text-align: left;
+}
+
+.heading-1 {
+  text-align: left;
+  font-weight: 300;
+  font-size: calc(10px + 0.6vmin);
+}
+
+.heading-2 {
+  font-weight: 300;
+  font-size: calc(10px + 0.5vmin);
+}
+
+.heading-3 {
+  font-weight: 300;
+  font-size: calc(10px + 0.4vmin);
+}
+
+.paragraph {
+  font-weight: 100;
+  font-size: calc(10px + 0.4vmin);
+}
