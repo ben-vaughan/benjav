@@ -1,0 +1,24 @@
+.app-header {
+  color: white;
+}
+
+.heading {
+  font-size: calc(10px + 5vmin);
+  text-align: left;
+  width: 100%;
+  font-weight: 700;
+}
+
+.subheading {
+  font-size: calc(10px + 1.4vmin);
+  text-align: left;
+  font-weight: 300;
+}
+
+.line {
+  width: 80px;
+  padding: 4px;
+  border-bottom-width: 1px;
+  border-bottom-color: #B5B5B5;
+  border-bottom-style: solid;
+}
