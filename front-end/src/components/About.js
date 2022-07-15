@@ -1,5 +1,3 @@
-
-
 function About() {
   return (
     <div className='text-section'>
