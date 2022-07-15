@@ -24,7 +24,6 @@ let experience = {
     }
   ]
 };
-
 let education = {
   title: 'education',
   fields: [

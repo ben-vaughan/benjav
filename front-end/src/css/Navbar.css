@@ -1,5 +1,6 @@
 .navbar-logo {
-
+  height: 100px;
+  pointer-events: none;
 }
 
 .navbar-list {
@@ -8,7 +9,8 @@
 }
 
 .navbar-list-element {
-  font-weight: 200;
+  font-size: calc(10px + 0.4vmin);
+  font-weight: 300;
   padding-bottom: 5px;
   display: block;
   width: 100%;
