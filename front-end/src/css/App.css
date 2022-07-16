@@ -49,3 +49,7 @@
   font-weight: 200;
   font-size: calc(10px + 0.4vmin);
 }
+
+.white-content {
+  background: white;
+}

@@ -1,8 +1,11 @@
-import "../css/Navbar.css"
-import logo from "../assets/bLogo.svg"
-import { Link } from "react-router-dom"
+import "../../css/Navbar.css"
+import React from "react"
+import logo from "../../assets/bLogo.svg"
+import { Link } from 'react-router-dom'
 
 function Header() {
+  const [darkMode, setDarkMode] = React.useState(true);
+
   return(
     <header className='navbar'>
       <div> 

@@ -1,10 +1,10 @@
-import Navbar from "../Navbar";
+import Navbar from "./Navbar";
 import '../../css/Layout.css'
 import { Outlet } from "react-router-dom";
 
 function LayoutDefault() {
   return(
-    <div className='background'>
+    <div className='background dark-mode'>
       <div className='layout'>
         <div className='navbar-layout'>
           <Navbar />
@@ -15,6 +15,11 @@ function LayoutDefault() {
       </div>
     </div>
   )
+}
+
+function toggleMode() {
+  var element = document.body
+  element.classList.toggle("dark-mode");
 }
 
 export default LayoutDefault;

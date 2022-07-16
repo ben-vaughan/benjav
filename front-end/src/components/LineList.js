@@ -7,7 +7,7 @@ const LineList = (props) => {
       <div className='heading-0'> { props.data.title } </div>
       <div className='list-outer'>
         <div className='list-details'>
-          {props.data.fields.map(f => <ListElement heading={f.heading} title={f.title} subtitle={f.subtitle} description={f.description}/>)}
+          {props.data.fields.map(f => <ListElement key={f.heading} heading={f.heading} title={f.title} subtitle={f.subtitle} description={f.description}/>)}
         </div>
       </div>
     </div>
