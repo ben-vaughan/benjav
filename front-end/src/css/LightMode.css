@@ -1,0 +1,12 @@
+.light-mode {
+  background-color: white;
+  color: #343434 !important;
+}
+
+.lightmode .background {
+  background-image: url('../assets/backgroundGraphicLight.svg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top right;
+  background-size: 40% auto;
+}

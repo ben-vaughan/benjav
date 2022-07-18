@@ -2,6 +2,7 @@ import "../../css/Navbar.css"
 import React from "react"
 import logo from "../../assets/bLogo.svg"
 import { Link } from 'react-router-dom'
+import { ThemeContext, themes } from "../../contexts/ThemeContext";
 
 function Header() {
   const [darkMode, setDarkMode] = React.useState(true);
@@ -16,6 +17,16 @@ function Header() {
         <Link className='navbar-list-element' to="/essays"> essays </Link>
         <Link className='navbar-list-element' to="/contact"> contact </Link>
       </div>
+      <ThemeContext.Consumer>
+        {({ changeTheme }) => (
+          <button
+            color="link"
+            onClick={() => {
+              setDarkMode(!darkMode);
+              changeTheme(darkMode ? themes.light : themes.dark);
+            }}> Toggle
+        </button> )}
+      </ThemeContext.Consumer>
     </header>
   )
 }

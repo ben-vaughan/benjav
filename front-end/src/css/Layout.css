@@ -7,20 +7,12 @@
   display: flex;
 }
 
-.dark-mode {
-  background-color: #343434;
-}
-
 .background {
   background-image: url('../assets/backgroundGraphic.svg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: top right;
   background-size: 40% auto;
-}
-
-.light-mode {
-  background-color: white;
 }
 
 .navbar-layout {
@@ -35,4 +27,8 @@
   padding: 5px;
   display: block;
   width: 100%;
+}
+
+.text-section {
+  max-width: 800px;
 }

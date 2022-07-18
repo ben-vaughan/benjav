@@ -1,15 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 .header {
-  color: white;
   font-size: calc(10px + 5vmin);
   text-align: left;
   width: 100%;
   font-weight: 700;
 }
 
+.st0{fill:#4C4C4C;}
+.st1{fill:#3F3F3F;}
+.st2{fill:#595959;}
+.st3{fill:#666666;}
+.st4{fill:#727272;} 
+
 .subheader {
-  color: white;
   font-size: calc(10px + 1.2vmin);
   text-align: left;
   font-weight: 400;
@@ -17,11 +21,9 @@
 
 .text-section {
   text-align: left;
-  color: white;
 }
 
 .heading-0 {
-  color: white;
   font-weight: 300;
   padding-top: 30px;
   font-size: calc(10px + 0.7vmin);
@@ -29,7 +31,6 @@
 }
 
 .heading-1 {
-  color: white;
   text-align: left;
   font-weight: 300;
   font-size: calc(10px + 0.6vmin);
@@ -48,8 +49,4 @@
 .paragraph {
   font-weight: 200;
   font-size: calc(10px + 0.4vmin);
-}
-
-.white-content {
-  background: white;
 }

@@ -9,13 +9,13 @@
 }
 
 .navbar-list-element {
+  color: inherit;
   font-size: calc(10px + 0.4vmin);
   font-weight: 300;
   padding-bottom: 5px;
   display: block;
   width: 100%;
   text-decoration: none;
-  color: white;
 }
 
 .navbar-list-element:hover {

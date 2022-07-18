@@ -4,7 +4,7 @@ import { Outlet } from "react-router-dom";
 
 function LayoutDefault() {
   return(
-    <div className='background dark-mode'>
+    <div className='background'>
       <div className='layout'>
         <div className='navbar-layout'>
           <Navbar />
@@ -15,11 +15,6 @@ function LayoutDefault() {
       </div>
     </div>
   )
-}
-
-function toggleMode() {
-  var element = document.body
-  element.classList.toggle("dark-mode");
 }
 
 export default LayoutDefault;
