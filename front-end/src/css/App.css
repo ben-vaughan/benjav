@@ -1,52 +1,63 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+:root {
+  --dark-colour-1: #3F3F3F;
+  --dark-colour-2: #4C4C4C;
+  --dark-colour-3: #595959;
+  --dark-colour-4: #666666;
+  --dark-colour-5: #727272;
+
+  --dark-logo-colour-0: #fefefe;
+  --dark-logo-colour-1: #F4F4F4;
+}
+
 .header {
   font-size: calc(10px + 5vmin);
   text-align: left;
   width: 100%;
   font-weight: 700;
 }
-
-.st0{fill:#4C4C4C;}
-.st1{fill:#3F3F3F;}
-.st2{fill:#595959;}
-.st3{fill:#666666;}
-.st4{fill:#727272;} 
-
 .subheader {
   font-size: calc(10px + 1.2vmin);
   text-align: left;
   font-weight: 400;
 }
-
 .text-section {
   text-align: left;
 }
-
 .heading-0 {
   font-weight: 300;
   padding-top: 30px;
   font-size: calc(10px + 0.7vmin);
   text-align: left;
 }
-
 .heading-1 {
   text-align: left;
   font-weight: 300;
   font-size: calc(10px + 0.6vmin);
 }
-
 .heading-2 {
   font-weight: 300;
   font-size: calc(10px + 0.5vmin);
 }
-
 .heading-3 {
   font-weight: 300;
   font-size: calc(10px + 0.4vmin);
 }
-
+.heading-4 {
+  font-weight: 300;
+  font-size: calc(10px + 0.3vmin);
+}
 .paragraph {
   font-weight: 200;
-  font-size: calc(10px + 0.4vmin);
+  font-size: calc(10px + 0.3vmin);
 }
+
+.colour-1 {fill: var(--dark-colour-1)}
+.colour-2 {fill: var(--dark-colour-2)}
+.colour-3 {fill: var(--dark-colour-3)}
+.colour-4 {fill: var(--dark-colour-4)}
+.colour-5 {fill: var(--dark-colour-5)}
+
+.logo-colour-0 {fill: var(--dark-logo-colour-0)}
+.logo-colour-1 {fill: var(--dark-logo-colour-1)}

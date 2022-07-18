@@ -7,12 +7,15 @@
   display: flex;
 }
 
-.background {
-  background-image: url('../assets/backgroundGraphic.svg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: top right;
-  background-size: 40% auto;
+.background-container {
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+
+.background-image {
+  float: right;
+  width: 50%;
 }
 
 .navbar-layout {
