@@ -1,5 +1,4 @@
 import "../../css/Navbar.css"
-import '../../css/Layout.css'
 import React from "react"
 import { Link } from 'react-router-dom'
 import { ThemeContext, themes } from "../../contexts/ThemeContext";

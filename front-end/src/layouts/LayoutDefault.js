@@ -1,5 +1,5 @@
-import Navbar from "./Navbar";
-import '../../css/Layout.css'
+import Navbar from "./elements/Navbar.js";
+import '../css/Layout.css'
 import { Outlet } from "react-router-dom";
 
 function LayoutDefault() {

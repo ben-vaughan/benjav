@@ -2,7 +2,7 @@ import './css/App.css';
 import './css/LightMode.css';
 
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
-import LayoutDefault from './components/layouts/LayoutDefault.js';
+import LayoutDefault from './layouts/LayoutDefault.js';
 
 import Home from './pages/Home';
 import NotFound from './pages/NotFound';
