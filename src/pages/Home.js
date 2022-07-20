@@ -1,5 +1,6 @@
 import About from "../components/About";
 import LineList from "../components/LineList";
+import IconList from "../components/IconList";
 
 let experience = {
   title: 'experience',
@@ -43,6 +44,7 @@ function Home() {
       <div style={{display: 'inline'}}>
         <LineList data={experience}/>
         <LineList data={education}/>
+        <IconList data={expertise}/>
       </div>
     </>
   )
