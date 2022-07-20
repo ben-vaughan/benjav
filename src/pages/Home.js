@@ -36,6 +36,27 @@ let education = {
     }
   ]
 }
+let expertise = {
+  title: "expertise",
+  fields: [
+    {
+      description: "I've extensively used Python for data processing, database manipulation and API implementation. Currently diving into Machine Learning, which has lead to a love for the pandas and numpy packages.",
+      imageURI: "pyLogo"
+    },
+    {
+      description: "I've recently jumped in to the Amazon Web Services platform, and have picked it up quickly. I've successfully set up relational MySQL databases, created VPCs, EC2 instances, API Gateways and more. Planning to take the AWS Certified Cloud Practitioner examination to solidify my skills. ",
+      imageURI: "awsLogo"
+    },
+    {
+      description: "I've recently jumped in to the Amazon Web Services platform, and have picked it up quickly. I've successfully set up relational MySQL databases, created VPCs, EC2 instances, API Gateways and more. Planning to take the AWS Certified Cloud Practitioner examination to solidify my skills. ",
+      imageURI: "reactLogo"
+    },
+    {
+      description: "I've recently jumped in to the Amazon Web Services platform, and have picked it up quickly. I've successfully set up relational MySQL databases, created VPCs, EC2 instances, API Gateways and more. Planning to take the AWS Certified Cloud Practitioner examination to solidify my skills. ",
+      imageURI: "aiLogo"
+    }
+  ]
+}
 
 function Home() {
   return(
