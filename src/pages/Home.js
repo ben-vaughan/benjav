@@ -31,7 +31,7 @@ let education = {
   fields: [
     {
       heading: 'Trinity College Dublin',
-      title: 'BA Major Computer Science, Minor Business',
+      title: 'BA (Mod) Major Computer Science, Minor Business',
       subtitle: 'September 2019 - Present',
       description: "Currently in my Senior Sophester (4th year). Majoring in Computer Science with a minor in Business, focusing on finance, quantitative skills and accountancy."
     }

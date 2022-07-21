@@ -7,6 +7,7 @@ import LayoutDefault from './layouts/LayoutDefault.js';
 import Home from './pages/Home';
 import Notes from './pages/Notes';
 import Contact from './pages/Contact';
+import Changes from './pages/Changes';
 import NotFound from './pages/NotFound';
 import ThemeContextWrapper from './contexts/ThemeContextWrapper';
 
@@ -18,6 +19,7 @@ function App() {
           <Route path="/" element={<LayoutDefault />}>
             <Route index element={<Home />} />
             <Route path="/notes" element={<Notes />} />
+            <Route path="/changes" element={<Changes />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="*" element={<NotFound />} />
           </Route>

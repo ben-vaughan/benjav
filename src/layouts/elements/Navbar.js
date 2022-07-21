@@ -22,7 +22,7 @@ function Header() {
       <div className='navbar-list'>
         <Link className='navbar-list-element' to="/"> <span className='navbar-list-element-text'>site</span> </Link>
         <Link className='navbar-list-element' to="/notes"> <span className='navbar-list-element-text'> notes </span></Link>
-        <Link className='navbar-list-element' to="/contact"> <span className='navbar-list-element-text'> contact </span></Link>
+        <Link className='navbar-list-element' to="/changes"> <span className='navbar-list-element-text'> changes </span></Link>
         <Link className='navbar-list-element' to="/contact"> <span className='navbar-list-element-text'> contact </span></Link>
       </div>
       </div>

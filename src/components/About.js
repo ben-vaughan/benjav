@@ -1,7 +1,7 @@
 function About() {
   return (
     <div className='text-section'>
-      <span className='heading-2'> hi, i'm ben. </span> <br/>
+      <span className='heading-2'> Hi, I'm Ben. </span> <br/>
       <span className='paragraph'> 
       I'm currently in my final year in Trinity College Dublin, where I'm majoring in Computer Science with a minor in Business.
       I also am currently working for NoCo, where we're planning to redefine the property leasing market here in Ireland.
