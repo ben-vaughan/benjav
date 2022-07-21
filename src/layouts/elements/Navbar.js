@@ -22,7 +22,7 @@ function Header() {
       </div>
       <div className='navbar-list'>
         <Link className='navbar-list-element' to="/"> site </Link>
-        <Link className='navbar-list-element' to="/essays"> essays </Link>
+        <Link className='navbar-list-element' to="/notes"> notes </Link>
         <Link className='navbar-list-element' to="/contact"> contact </Link>
       </div>
       <ThemeContext.Consumer>

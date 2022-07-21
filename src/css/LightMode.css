@@ -14,6 +14,10 @@
   color: #343434 !important;
 }
 
+.light-mode .colour-filter {
+  filter: invert(75%)
+}
+
 .light-mode .colour-1 {
   fill: var(--light-colour-1);
 }

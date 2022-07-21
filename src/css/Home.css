@@ -1,0 +1,7 @@
+.home-container {
+  width: 100%;
+  margin-top: 25px;
+  display: grid;
+  column-gap: 100px;
+  grid-template-columns: auto auto;
+}

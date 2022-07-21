@@ -4,7 +4,7 @@ import '../css/components/IconList.css'
 const IconList = (props) => {
   return (
     <>
-      <div className='heading-0'> { props.data.title } </div>
+      <div style={{paddingTop: '20px'}} className='heading-2'> { props.data.title } </div>
       <div>
         {props.data.fields.map(f => <IconListElement description={f.description} imageURI={f.imageURI}/>)}
       </div>

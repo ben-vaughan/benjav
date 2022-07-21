@@ -1,6 +1,7 @@
 import About from "../components/About";
 import LineList from "../components/LineList";
 import IconList from "../components/IconList";
+import "../css/Home.css"
 
 let experience = {
   title: 'experience',
@@ -62,10 +63,14 @@ function Home() {
   return(
     <>
       <About/>
-      <div style={{display: 'inline'}}>
-        <LineList data={experience}/>
-        <LineList data={education}/>
-        <IconList data={expertise}/>
+      <div className="home-container">
+        <div>
+          <LineList data={experience}/>
+        </div>
+        <div>
+          <LineList data={education}/>
+          <IconList data={expertise}/>
+        </div>
       </div>
     </>
   )

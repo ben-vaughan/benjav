@@ -3,7 +3,7 @@ export default function IconListElement(props) {
     <div className='icon-list-container'>
       <div className='icon-list-element'>
         <div className='icon-list-element-icon'>          
-          <img alt='' src={require(`../../assets/icons/${props.imageURI}.svg`)}/>
+          <img className='colour-filter' alt='' src={require(`../../assets/icons/${props.imageURI}.svg`)}/>
         </div>
         <div className='icon-list-element-text'>
           <span className='paragraph'> { props.description } </span>

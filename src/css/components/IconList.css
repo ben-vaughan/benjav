@@ -10,7 +10,7 @@
 .icon-list-element-icon {
   display: inline;
   width: 25px;
-  padding: 5px;
+  padding: 10px;
 }
 
 .icon-list-element-text {
@@ -18,5 +18,5 @@
   text-align: left;
   width: 100%;
   border-left: solid 1px #B5B5B5;
-  padding: 0px 5px;
+  padding-left: 10px;
 }
