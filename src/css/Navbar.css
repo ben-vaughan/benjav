@@ -31,7 +31,7 @@
   }
   .navbar-inner {
     display: flex;
-    margin: 5px;
+    margin: 10px;
     width: 100%;
   }
   .navbar-logo {
@@ -52,5 +52,6 @@
   }
   .navbar-list-element-text {
     font-weight: 300;
+    font-size: 14px;
   }
 }

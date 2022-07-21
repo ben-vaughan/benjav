@@ -27,7 +27,7 @@
   .content-inner {
     display: flex;
     flex-direction: column;
-    margin: 5px;
+    margin: 20px;
     width: 100%;
   }
 }
