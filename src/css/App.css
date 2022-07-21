@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 :root {
   --light-colour-1: #e6e6e6;
@@ -26,22 +25,22 @@
   text-align: left;
 }
 .heading-0 {
-  font-weight: 300;
+  font-weight: 400;
   padding-top: 30px;
   font-size: calc(10px + 0.7vmin);
   text-align: left;
 }
 .heading-1 {
   text-align: left;
-  font-weight: 300;
+  font-weight: 400;
   font-size: calc(10px + 0.6vmin);
 }
 .heading-2 {
-  font-weight: 300;
+  font-weight: 400;
   font-size: calc(10px + 0.5vmin);
 }
 .heading-3 {
-  font-weight: 300;
+  font-weight: 400;
   font-size: calc(10px + 0.4vmin);
 }
 .heading-4 {
@@ -50,7 +49,7 @@
 }
 .paragraph {
   font-weight: 200;
-  font-size: calc(10px + 0.3vmin);
+  font-size: calc(10px + 0.25vmin);
 }
 
 .colour-1 {fill: var(--light-colour-1)}

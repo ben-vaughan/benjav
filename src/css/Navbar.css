@@ -1,5 +1,5 @@
 .navbar-logo {
-  width: 70px;
+  width: 60px;
   pointer-events: none;
 }
 
@@ -10,7 +10,7 @@
 
 .navbar-list-element {
   color: inherit;
-  font-size: calc(10px + 0.4vmin);
+  font-size: calc(10px + 0.3vmin);
   font-weight: 300;
   padding-bottom: 5px;
   display: block;
