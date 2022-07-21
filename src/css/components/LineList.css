@@ -7,3 +7,13 @@
 .line-list-element {
   padding: 5px 5px;
 }
+
+@media screen and (max-width: 900px) {
+  .line-list-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .line-list-element {
+    width: 100%;
+  }
+}

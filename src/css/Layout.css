@@ -1,10 +1,35 @@
 .layout {
   margin: auto;
+  display: flex;
   /* font-family: 'Raleway', sans-serif; */
   min-height: 100vh;
   max-width: 1200px;
   padding: 20px 10px;
   display: flex;
+}
+
+@media screen and (max-width: 900px) {
+  .layout {
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .navbar-layout {
+    width: 100% !important;
+    padding: 0px !important; 
+  }
+  .content-layout {
+    display: flex;
+    padding: 0px !important;
+    width: 100% !important;
+  }
+  .content-inner {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    width: 100%;
+  }
 }
 
 .background-container {
@@ -20,7 +45,6 @@
 
 .navbar-layout {
   padding: 5px;
-  display: block;
   margin: 0;
   width: 100px;
   height: 100%;
@@ -28,7 +52,6 @@
 
 .content-layout {
   padding: 5px;
-  display: block;
   width: 100%;
 }
 

@@ -5,3 +5,10 @@
   column-gap: 100px;
   grid-template-columns: auto auto;
 }
+
+@media screen and (max-width: 900px) {
+  .home-container {
+    display: flex;
+    flex-direction: column;
+  }
+}

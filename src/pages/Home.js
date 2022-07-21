@@ -49,7 +49,7 @@ let expertise = {
       imageURI: "awsLogo"
     },
     {
-      description: "The website you're looking at is built with React, and it's my first site! I have extensive experience with the Vue.js framework too, building an online store which integrates Stripe for my previous startup, Fonz.",
+      description: "The website you're looking at is built with React! I have extensive experience with the Vue.js framework too, having built an online store which integrates Stripe for my previous startup, Fonz.",
       imageURI: "reactLogo"
     },
     {
@@ -66,6 +66,7 @@ let expertise = {
 function Home() {
   return(
     <>
+    <div className="content-inner">
       <About/>
       <div className="home-container">
         <div>
@@ -75,6 +76,7 @@ function Home() {
           <LineList data={education}/>
           <IconList data={expertise}/>
         </div>
+      </div>
       </div>
     </>
   )

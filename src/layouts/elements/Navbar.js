@@ -8,7 +8,7 @@ function Header() {
 
   return(
     <header className='navbar'>
-      <div>
+      <div className='navbar-inner'>
         <svg className="navbar-logo" viewBox="0 0 499.4 1024">
             <path class="logo-colour-0" d="M384,498.4c-19.9-4.6-39.2,1.9-69.9,13.6c112-112.5,185.1-201.8,176.9-224.4c-15.9-30.4-41.5-48.8-76.3-56.1
               c-25.1-4.2-98.7,39.1-206.5,128.2C225.1,323,296.2,190,356.5,240c7.2-0.9,10.9-3.9,7.4-11.7c-7.7-20.6-77.5-75.8-101.8-59.3
@@ -19,11 +19,12 @@ function Header() {
               C411.9,534.1,413.9,563.3,396.7,604.6z"/>
             <path class="logo-colour-1" d="M96.5,533.5c23.1-22.8,45.5-43,67.4-61l-6.5,36.9c-19.3,12.4-40.4,31-62.6,53.5L96.5,533.5z"/>
         </svg>
-      </div>
       <div className='navbar-list'>
-        <Link className='navbar-list-element' to="/"> site </Link>
-        <Link className='navbar-list-element' to="/notes"> notes </Link>
-        <Link className='navbar-list-element' to="/contact"> contact </Link>
+        <Link className='navbar-list-element' to="/"> <span className='navbar-list-element-text'>site</span> </Link>
+        <Link className='navbar-list-element' to="/notes"> <span className='navbar-list-element-text'> notes </span></Link>
+        <Link className='navbar-list-element' to="/contact"> <span className='navbar-list-element-text'> contact </span></Link>
+        <Link className='navbar-list-element' to="/contact"> <span className='navbar-list-element-text'> contact </span></Link>
+      </div>
       </div>
       {/* <ThemeContext.Consumer>
         {({ changeTheme }) => (

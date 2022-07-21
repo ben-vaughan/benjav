@@ -21,3 +21,9 @@
   border-left: solid 1px #B5B5B5;
   padding-left: 10px;
 }
+
+@media screen and (max-width: 900px) {
+  .icon-list-container {
+    width: 100%;
+  }
+}
