@@ -9,6 +9,7 @@
 
 .icon-list-element-icon {
   display: inline;
+  pointer-events: none;
   width: 25px;
   padding: 10px;
 }

@@ -33,7 +33,7 @@ let education = {
       heading: 'Trinity College Dublin',
       title: 'BA Major Computer Science, Minor Business',
       subtitle: 'September 2019 - Present',
-      description: "Created a new way to share and play music with friends using NFC technology. Developed our website using Vue and the Google Firebase suite. Implemented user authentication, analytics and a real-time NoSQL database. Designed mockups, packaging, and UX/UI for Fonz iOS and Android app. Accepted into Tangent's LaunchBox accelerator, receiving €15,000 in funding."
+      description: "Currently in my Senior Sophester (4th year). Majoring in Computer Science with a minor in Business, focusing on finance, quantitative skills and accountancy."
     }
   ]
 }
@@ -49,11 +49,11 @@ let expertise = {
       imageURI: "awsLogo"
     },
     {
-      description: "I've recently jumped in to the Amazon Web Services platform, and have picked it up quickly. I've successfully set up relational MySQL databases, created VPCs, EC2 instances, API Gateways and more. Planning to take the AWS Certified Cloud Practitioner examination to solidify my skills. ",
+      description: "The website you're looking at is built with React, and it's my first site! I have extensive experience with the Vue.js framework too, building an online store which integrates Stripe for my previous startup, Fonz.",
       imageURI: "reactLogo"
     },
     {
-      description: "I've recently jumped in to the Amazon Web Services platform, and have picked it up quickly. I've successfully set up relational MySQL databases, created VPCs, EC2 instances, API Gateways and more. Planning to take the AWS Certified Cloud Practitioner examination to solidify my skills. ",
+      description: "I've been using the Adobe suite since I was 16 years of age, with a particular love for Illustrator and XD. I've plenty of experience with graphic design and branding.",
       imageURI: "aiLogo"
     }
   ]
