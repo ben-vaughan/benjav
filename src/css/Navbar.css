@@ -49,6 +49,7 @@
     margin: 1px;
     font-size: 16px;
     border: 1px dotted grey;
+    background-color: #F8FAFC;
   }
   .navbar-list-element-text {
     font-weight: 300;
