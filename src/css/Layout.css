@@ -24,10 +24,12 @@
     padding: 0px !important;
     width: 100% !important;
   }
+  .content-outer {
+    margin: 20px;
+  }
   .content-inner {
     display: flex;
     flex-direction: column;
-    margin: 20px;
     width: 100%;
   }
 }

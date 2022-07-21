@@ -66,17 +66,19 @@ let expertise = {
 function Home() {
   return(
     <>
-    <div className="content-inner">
-      <About/>
-      <div className="home-container">
-        <div>
-          <LineList data={experience}/>
+    <div className="content-outer">
+      <div className="content-inner">
+        <About/>
+        <div className="home-container">
+          <div>
+            <LineList data={experience}/>
+          </div>
+          <div>
+            <LineList data={education}/>
+            <IconList data={expertise}/>
+          </div>
         </div>
-        <div>
-          <LineList data={education}/>
-          <IconList data={expertise}/>
         </div>
-      </div>
       </div>
     </>
   )
