@@ -1,0 +1,41 @@
+:root {
+  --dark-colour-1: #1e1e1e;
+  --dark-colour-2: #2c2c2c;
+  --dark-colour-3: #2b2b2b;
+  --dark-colour-4: #3b3b3b;
+  --dark-colour-5: #424242;
+
+  --dark-logo-colour-0: #fefefe;
+  --dark-logo-colour-1: #F4F4F4;
+}
+
+.dark-mode {
+  background-color: #161616;
+  color: white !important;
+}
+
+.dark-mode .colour-filter {
+  filter: invert(75%)
+}
+
+.dark-mode .colour-1 {
+  fill: var(--dark-colour-1);
+}
+.dark-mode .colour-2 {
+  fill: var(--dark-colour-2);
+}
+.dark-mode .colour-3 {
+  fill: var(--dark-colour-3);
+}
+.dark-mode .colour-4 {
+  fill: var(--dark-colour-4);
+}
+.dark-mode .colour-5 {
+  fill: var(--dark-colour-5);
+}
+.dark-mode .logo-colour-0 {
+  fill: var(--dark-logo-colour-0);
+}
+.dark-mode .logo-colour-1 {
+  fill: var(--dark-logo-colour-1);
+}

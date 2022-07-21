@@ -1,5 +1,5 @@
 import './css/App.css';
-import './css/LightMode.css';
+import './css/DarkMode.css';
 
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import LayoutDefault from './layouts/LayoutDefault.js';

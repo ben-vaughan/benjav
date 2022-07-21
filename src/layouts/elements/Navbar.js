@@ -28,11 +28,11 @@ function Header() {
       <ThemeContext.Consumer>
         {({ changeTheme }) => (
           <button
-            color="link"
+            style={{fontSize: '11px', border: 'none', borderRadius: '20px', padding: '4px'}}
             onClick={() => {
               setDarkMode(!darkMode);
               changeTheme(darkMode ? themes.light : themes.dark);
-            }}> Toggle
+            }}> theme
         </button> )}
       </ThemeContext.Consumer>
     </header>

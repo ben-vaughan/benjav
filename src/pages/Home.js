@@ -45,12 +45,16 @@ let expertise = {
       imageURI: "pyLogo"
     },
     {
-      description: "I've recently jumped in to the Amazon Web Services platform, and have picked it up quickly. I've successfully set up relational MySQL databases, created VPCs, EC2 instances, API Gateways and more. Planning to take the AWS Certified Cloud Practitioner examination to solidify my skills. ",
+      description: "I've recently jumped in to the Amazon Web Services platform, and have picked it up quickly. I've successfully set up relational MySQL databases, created VPCs, EC2 instances, API Gateways and more.",
       imageURI: "awsLogo"
     },
     {
       description: "The website you're looking at is built with React, and it's my first site! I have extensive experience with the Vue.js framework too, building an online store which integrates Stripe for my previous startup, Fonz.",
       imageURI: "reactLogo"
+    },
+    {
+      description: "I'm thoroughly experienced with JavaScript, having used it in various web development projects, alongside creating scripts to extract data from various APIs.",
+      imageURI: "jsLogo"
     },
     {
       description: "I've been using the Adobe suite since I was 16 years of age, with a particular love for Illustrator and XD. I've plenty of experience with graphic design and branding.",

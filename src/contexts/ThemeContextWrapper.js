@@ -4,7 +4,7 @@ import { ThemeContext, themes } from './ThemeContext';
 // This Theme Context Wrapper will take in props and update our context accordingly when required.
 
 export default function ThemeContextWrapper(props) {
-  const [theme, setTheme] = useState(themes.dark);
+  const [theme, setTheme] = useState(themes.light);
 
   function changeTheme(theme) {
     setTheme(theme);
@@ -12,12 +12,12 @@ export default function ThemeContextWrapper(props) {
 
   useEffect(() => {
     switch (theme) {
-      case themes.light:
-        document.body.classList.add('light-mode');
-        break;
       case themes.dark:
+        document.body.classList.add('dark-mode');
+        break;
+      case themes.light:
       default:
-        document.body.classList.remove('light-mode');
+        document.body.classList.remove('dark-mode');
         break;
     }
   }, [theme]);

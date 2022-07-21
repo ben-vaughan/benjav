@@ -10,8 +10,8 @@
 }
 
 .light-mode {
-  background-color: white;
-  color: #343434 !important;
+  background-color: #F8FAFC;
+  color: #161616 !important;
 }
 
 .light-mode .colour-filter {

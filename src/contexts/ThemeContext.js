@@ -1,11 +1,11 @@
 import { createContext } from "react";
 
 export const themes = {
-  dark: "",
-  light: "light-mode"
+  light: "",
+  dark: "dark-mode"
 }
 
 export const ThemeContext = createContext({
-    theme: themes.dark,
+    theme: themes.light,
   changeTheme: () => {}
 })
