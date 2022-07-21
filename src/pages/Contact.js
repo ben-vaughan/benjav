@@ -5,11 +5,13 @@ const data = {
   fields: [
     {
       name: 'e-mail',
-      value: "me@benjav.com",
+      value: "vaughabe@gmail.com",
+      link: 'mailto:vaughabe@gmail.com'
     },
     {
       name: 'github',
-      value: "ben-vaughan",
+      value:'ben-vaughan',
+      link: 'https://github.com/ben-vaughan/'
     }
   ]
 }

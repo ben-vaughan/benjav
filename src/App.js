@@ -9,6 +9,9 @@ import Notes from './pages/Notes';
 import Contact from './pages/Contact';
 import Changes from './pages/Changes';
 import NotFound from './pages/NotFound';
+
+import LoremIpsum from './pages/notes/LoremIpsum';
+
 import ThemeContextWrapper from './contexts/ThemeContextWrapper';
 
 function App() {
@@ -22,6 +25,8 @@ function App() {
             <Route path="/changes" element={<Changes />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="*" element={<NotFound />} />
+
+            <Route path="/notes/lorem-ipsum" element={<LoremIpsum />} />
           </Route>
         </Routes>
       </Router>

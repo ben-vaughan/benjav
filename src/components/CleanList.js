@@ -1,5 +1,4 @@
-import '../css/components/CleanList.css'
-import '../css/components/LineList.css'
+import '../css/components/CleanList.css';
 
 function CleanList(props) {
   return (
@@ -10,9 +9,7 @@ function CleanList(props) {
       <div> 
         {props.data.fields.map(f => 
           <>
-            <div className='line-list-container'>
-              <span className='paragraph'> {f.name}: {f.value} </span> <br/>
-            </div>
+            <a href={f.link} className='paragraph clean-list-element'> {f.name}: {f.value} </a> <br/>
           </>
         )}
       </div>
