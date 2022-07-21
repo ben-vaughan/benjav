@@ -1,4 +1,5 @@
 import IconListElement from './elements/IconListElement';
+import '../css/components/IconList.css'
 
 const IconList = (props) => {
   return (

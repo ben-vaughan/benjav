@@ -1,0 +1,9 @@
+.line-list-container {
+  border-left: solid 1px #B5B5B5;
+  text-align: left;
+  padding: 5px;
+}
+
+.line-list-element {
+  padding: 3px 5px;
+}

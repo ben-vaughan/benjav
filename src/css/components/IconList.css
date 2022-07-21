@@ -1,0 +1,22 @@
+.icon-list-container {
+  padding: 5px 0px;
+}
+
+.icon-list-element {
+  display: flex;
+  align-items: center;
+}
+
+.icon-list-element-icon {
+  display: inline;
+  width: 25px;
+  padding: 5px;
+}
+
+.icon-list-element-text {
+  display: inline;
+  text-align: left;
+  width: 100%;
+  border-left: solid 1px #B5B5B5;
+  padding: 0px 5px;
+}
