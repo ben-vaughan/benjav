@@ -1,7 +1,7 @@
 import About from "../components/About";
 import LineList from "../components/LineList";
 import IconList from "../components/IconList";
-import "../css/Home.css"
+import "../css/pages/Home.css"
 
 let experience = {
   title: 'experience',
