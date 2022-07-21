@@ -25,7 +25,7 @@ function Header() {
         <Link className='navbar-list-element' to="/notes"> notes </Link>
         <Link className='navbar-list-element' to="/contact"> contact </Link>
       </div>
-      <ThemeContext.Consumer>
+      {/* <ThemeContext.Consumer>
         {({ changeTheme }) => (
           <button
             style={{fontSize: '11px', border: 'none', borderRadius: '20px', padding: '4px'}}
@@ -34,7 +34,7 @@ function Header() {
               changeTheme(darkMode ? themes.light : themes.dark);
             }}> theme
         </button> )}
-      </ThemeContext.Consumer>
+      </ThemeContext.Consumer> */}
     </header>
   )
 }
